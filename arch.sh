@@ -14,12 +14,12 @@ ROOT_PASSWD=123456
 HD=/dev/sda
 # Tamanho da Partição Boot: /boot
 BOOT_SIZE=200
-# Tamanho da Partição Root: /
-ROOT_SIZE=10000
 # Tamanho da Partição Swap:
-SWAP_SIZE=2000
+SWAP_SIZE=1024
+# Tamanho da Partição Root: /
+ROOT_SIZE=5000
 # A partição /home irá ocupar o restante do espaço livre em disco
- 
+
 # File System das partições
 BOOT_FS=ext4
 HOME_FS=ext4
